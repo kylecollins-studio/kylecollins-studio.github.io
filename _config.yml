@@ -1,2 +1,2 @@
 include:
-  - "node_modules/paper/dist/"
+  - "node_modules"
