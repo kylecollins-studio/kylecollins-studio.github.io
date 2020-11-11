@@ -12,3 +12,84 @@ canvas[resize] {
 .hidden {
     display: none !important;
 }
+
+.floating {
+  position: absolute;
+  z-index: 1;
+}
+
+.home-icon {
+  background: url('https://blog.schau-wien.at/wp-content/uploads/2020/04/logo.jpg') 0 0 / 100% auto;
+  width: 100px;
+  height: 100px;
+  top: 1.5rem;
+  left: 1.5rem;
+}
+
+.home-icon .tooltiptext {
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  color: red;
+  text-align: center;
+  padding: 0px 0;
+  border-radius: 0px;
+}
+
+.home-icon:hover .tooltiptext{
+  visibility: visible;
+}
+
+.work-icon {
+  background: url('https://blog.schau-wien.at/wp-content/uploads/2020/04/decasia2.jpg') 0 0 / 100% auto;
+  height: 50px;
+  width: 100px;
+  top: 1.5rem;
+  right: 1.5rem;
+}
+
+.work-icon .tooltiptext {
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  color: yellow;
+  text-align: center;
+  padding: 0px 0;
+  border-radius: 0px;
+}
+
+.work-icon:hover .tooltiptext{
+  visibility: visible;
+}
+
+.info-icon {
+  background: url('https://blog.schau-wien.at/wp-content/uploads/2020/04/decasia2.jpg') 0 0 / 100% auto;
+  height: 50px;
+  width: 100px;
+  top: 5.5rem;
+  right: 1.5rem;
+}
+
+.info-icon .tooltiptext {
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  color: yellow;
+  text-align: center;
+  padding: 0px 0;
+  border-radius: 0px;
+}
+
+.info-icon:hover .tooltiptext{
+  visibility: visible;
+}
+
+.hide-text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
