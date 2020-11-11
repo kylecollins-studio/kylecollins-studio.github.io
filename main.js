@@ -15,7 +15,7 @@ var raster = new Raster('ferg');
 raster.position = view.center;
 
 // Scale the raster by 50%
-raster.scale(0.5);
+raster.scale(0.1);
 
 // Rotate the raster by 45 degrees:
 raster.rotate(45);
