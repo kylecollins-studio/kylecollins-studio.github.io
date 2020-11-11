@@ -1,1 +1,2 @@
-include: ["node_modules/paper/dist/paper-full.min.js"]
+include:
+  - "node_modules/paper/dist/"
